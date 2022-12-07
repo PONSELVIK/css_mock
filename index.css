@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+}
+.big_container{
+    width: 1200px;
+    height: 500px;
+    background-color: rgb(231, 187, 148);
+    border: black solid 2px;
+    /* display: flex; */
+
+}
+.css_container{
+    display: flex;
+}
+.box{
+    height: 100px;
+    width: 1180px;
+    background-color: rgb(121, 63, 175);
+    color: white;
+    font-size: larger;
+    margin-top: 20px;
+    padding-left: 10px;
+    text-align: left;
+    padding-top: 30px;
+    box-sizing: border-box;
+    margin: 10px;
+}
+.footer{
+    background-color: rgb(48, 178, 187);
+    height: 50px;
+    width: 1180px;
+    box-sizing: border-box;
+    margin: 10px 10px 20px 10px;
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+    font-size: small;
+    
+}
+/* background-color: rgb(60, 190, 199); */
+.flex_box1,.flex_box2,.flex_box3,.flex_box4{
+    background-color: rgb(60, 190, 199);
+    color: white;
+    height: 30px;
+    width: 200px;
+    margin-left: 20px;
+    font-size: large;
+    padding-left: 10px;
+    margin-bottom: 8px;
+}
+.city_text{
+    height: 100px;
+    width: 500px;
+    margin-left: 100px;
+    margin-top: 0;
+    display: inline-block;
+    box-sizing: border-box;
+    
+}
+
+
+.text1{
+    font-weight: bold;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.box3{
+    height: 250px;
+    width: 250px;
+    background-color: rgb(60, 190, 199);
+    /* margin-left: 900px; */
+    margin:0px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    display: inline-block;
+}
+.texting{
+    font-weight: bold;
+}
+.texting1{
+    font-size: small;
+}
+
+@media (min-width:300px)and(max-width:600px){
+    .big_container{
+        flex-direction: row;
+        /* height: 50vh; */
+    }
+    .box{
+        width: 50px;
+    }
+    .css_container{
+        flex-direction: row;
+        gap: 10px;
+        flex-wrap: wrap;
+        font-size: small;
+    }
+    .p{
+        font-size: 20px;
+    }
+    .box3{
+        flex-wrap: wrap;
+
+        
+    }    
+    .city_text{
+        font-size: small;
+        
+        
+    }
+    .footer{
+        width: 50vw;
+    }
+}
+@media (min-width:800px)and (max-width:1024px){
+
+}
+.css_container{
+    flex-direction: column;
+
+}
+
+
+
+
